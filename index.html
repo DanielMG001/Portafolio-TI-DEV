@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Daniel Muñoz - Soporte TI, Desarrollo Web Junior, Automatización en Python y Asistencia Virtual.">
+  <title>Daniel Muñoz | Soporte TI & Desarrollador Junior</title>
+  
+  <!-- Tipografía Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Contenedor Superior (Navbar + Hero con fondo morado continuo) -->
+  <div class="top-wrapper">
+    <!-- Encabezado con Menú Desplegable -->
+    <header class="navbar">
+      <div class="nav-container">
+        
+        <!-- Menú Desplegable (Dropdown Redondeado) -->
+        <div class="dropdown-menu">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="dropdown-button">
+            <span class="hamburger-icon">☰</span>
+            <span class="dropdown-label">Menú</span>
+          </label>
+          <div class="dropdown-content">
+            <a href="#inicio">📌 Inicio</a>
+            <a href="#servicios">🛠️ Servicios</a>
+            <a href="#sobre-mi">👤 Sobre mí</a>
+            <a href="#habilidades">⚡ Habilidades</a>
+            <a href="#contacto">📩 Contacto</a>
+          </div>
+        </div>
+
+        <!-- Logo / Identidad -->
+        <a href="#inicio" class="logo">Daniel Muñoz <span>| TI & Dev</span></a>
+      </div>
+    </header>
+
+    <!-- Sección Hero / Presentación -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <span class="badge">Disponible en Workana</span>
+        <h1>Soporte técnico TI, Desarrollo Web & Asistencia Virtual</h1>
+        <p>Estudiante de Ingeniería de Sistemas enfocado en soluciones tecnológicas eficientes, mantenimiento de infraestructura, desarrollo web y automatización de procesos.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#contacto">Solicitar Propuesta</a>
+          <a class="btn btn-secondary" href="#servicios">Ver Servicios</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <main>
+    <!-- Sección Servicios -->
+    <section id="servicios" class="container">
+      <div class="section-header">
+        <h2>Mis Servicios</h2>
+        <p>Soluciones integrales ajustadas a las necesidades de tu empresa o proyecto.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon">🖥️</div>
+          <h3>Soporte Técnico & Mesa de Ayuda</h3>
+          <p>Atención remota a usuarios, diagnóstico de conectividad, resolución de fallas en hardware y software de forma ordenada.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🛠️</div>
+          <h3>Mantenimiento & Configuración</h3>
+          <p>Mantenimiento preventivo/correctivo de computadores, instalación de programas, periféricos y cuentas de correo.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">💻</div>
+          <h3>Desarrollo Web (HTML & CSS)</h3>
+          <p>Creación de páginas web sencillas, landing pages responsivas y estructuradas con diseño limpio y adaptado a móviles.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🐍</div>
+          <h3>Scripts & Automatización con Python</h3>
+          <p>Desarrollo de pequeños scripts para automatizar tareas repetitivas, procesamiento de archivos y optimización de flujos.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📋</div>
+          <h3>Asistencia Virtual & Ofimática</h3>
+          <p>Gestión de correos, administración de agendas, documentación y manejo avanzado de Google Workspace y Microsoft Office.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="container bg-light">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Sobre mí</h2>
+          <p>Soy estudiante de <strong>Ingeniería de Sistemas (5.º semestre)</strong> y <strong>Técnico en Programación de Sistemas de Información</strong>, con bachillerato técnico en desarrollo de software. Llevo más de dos años formándome continuamente en el área de sistemas.</p>
+          
+          <p>Cuento con experiencia real brindando soporte TI: atendí usuarios en mesa de ayuda y soporte directo, realizando mantenimiento preventivo y correctivo a más de <strong>60 equipos en Mountain Roses</strong>, diagnosticando fallas de conectividad y configurando redes básicas.</p>
+
+          <p>Actualmente me encuentro aplicando mis conocimientos en proyectos prácticos mientras avanzo hacia el desarrollo Full Stack, destacándome por trabajar de forma estructurada, documentar cada proceso y mantener una comunicación clara.</p>
+        </div>
+
+        <!-- Habilidades / Tech Stack -->
+        <div id="habilidades" class="about-skills">
+          <h3>Tecnologías & Herramientas</h3>
+          <div class="skills-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Soporte TI / Mesa de Ayuda</span>
+            <span class="tag">Redes Básicas</span>
+            <span class="tag">Google Workspace</span>
+            <span class="tag">Microsoft Office</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="container text-center">
+      <h2>¿Trabajamos juntos?</h2>
+      <p class="section-desc">Escríbeme a través de mi perfil oficial en <strong>Workana</strong> para conversar sobre tu requerimiento y enviarte una propuesta personalizada.</p>
+      <a class="btn btn-primary btn-large" href="https://www.workana.com/freelancer/30285500d97d0947e36422229bbcfb4e" target="_blank" rel="noopener">Ir a mi Perfil en Workana</a>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p>Portafolio Landing Page · Workana · Soporte TI - Desarrollador Junior</p>
+  </footer>
+
+  <!-- Script para cerrar el menú desplegable automáticamente al hacer clic en una opción -->
+  <script>
+    document.querySelectorAll('.dropdown-content a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('menu-toggle').checked = false;
+      });
+    });
+  </script>
+
+</body>
+</html>
+
